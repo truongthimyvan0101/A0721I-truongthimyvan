@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    Amoumt:
+</form>
+<input type="text" id="input">
+<select name="" id="select1">
+    <option value="a">VNĐ</option>
+    <option value="b">USD</option>
+</select>
+<select name="" id="Select2">
+    <option value="a">VNĐ</option>
+    <option value="b">USD</option>
+</select>
+<button onclick="xinchao()">convert</button>
+<script>
+    function xinchao() {
+        let giatrivao = document.getElementById('input').value;
+        let select1 = document.getElementById(select1).value;
+        let select2 = document.getElementById(select2).value;
+        if (select1==select2) {
+            alert(giatrivao);
+        }
+        if (select1=="a" && select2=="b"){
+            alert(giatrivao/23000)
+        }
+    }
+</script>
+</body>
+</html>
