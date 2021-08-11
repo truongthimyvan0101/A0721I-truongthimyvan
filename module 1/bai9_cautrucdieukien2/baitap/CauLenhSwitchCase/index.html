@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getDaysOfMonth(year, month) {
+
+        return new Date(year, month + 1, 0).getDate();
+
+    }
+
+    alert("Tháng 2 có " + getDaysOfMonth(new Date().getFullYear(), 1) + " ngày"); // tháng 2 có giá trị là 1
+
+    alert("Tháng 10 có " + getDaysOfMonth(new Date().getFullYear(), 9) + " ngày"); // tháng 10 có giá trị là 9
+</script>
+</body>
+</html>
