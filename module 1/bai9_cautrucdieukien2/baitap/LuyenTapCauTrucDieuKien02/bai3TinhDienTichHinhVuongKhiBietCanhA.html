@@ -6,10 +6,15 @@
 </head>
 <body>
 <script>
-    let R = prompt('diện tích hình vuông')
+    let a =parseInt(prompt("Xin mời nhập: "));
 
-    let area = a*4
-    document.write('diện tích hình vuông ='+ area);
+    if (a <=0) {
+        alert("nhập lại");
+    }else {
+        S=a*a
+    }
+    document.write('Kết quả diện tích hình vuông: '+ S);
+
 </script>
 </body>
 </html>

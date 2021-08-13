@@ -6,15 +6,14 @@
 </head>
 <body>
 <script>
-    let m = prompt("Kết quả chuyển mét sang feet:");
-
+    let m =parseInt(prompt("nhap"));
     if (m<=0) {
-        ft = m*3.2808;
-        alert("feet");
+        alert("nhập lại");
     }else {
+        ft = m*3.2808;
+        alert("Kết quả chuyển mét sang feet"+ft);
 
     }
-    document.write('Kết quả chuyển mét sang feet='+ ft);
 </script>
 </body>
 </html>

@@ -6,8 +6,12 @@
 </head>
 <body>
 <script>
-    let c = 0
-    let F = c*9/5+32
+    let c =parseInt(prompt("Xin mời nhập: "));
+    if (c <=0) {
+        alert("nhập lại");
+    }else {
+        F = c*9/5+32
+    }
     document.write('Kết quả chuyển đổi C sang F='+ F);
 </script>
 </body>
