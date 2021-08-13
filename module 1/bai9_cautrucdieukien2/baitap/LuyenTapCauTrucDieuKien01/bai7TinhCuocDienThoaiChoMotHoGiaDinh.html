@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sophut = prompt('số phút gọi trong tháng:');
+
+    var phicodinh=25000
+    if (sophut>200){
+        phi=(sophut-200)*200+150*400+50*600;
+    }else if (sophut>50){
+        phi=(sophut-50)*400+50*600;
+        alert('Bạn đã gọi');
+    }else {
+        phi=sophut*600;
+        tong=phi+phicodinh;
+        alert('Số tiền điện bạn phải nộp là');
+    }
+</script>
+</body>
+</html>
