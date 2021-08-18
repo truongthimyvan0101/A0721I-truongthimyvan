@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    var a = 7, num1=0, num2=1;
-    document.writeln("chuỗi Fiboncacci với"+a+"số là: ");
-    var i=1;
-    while (i<=a)
-    {
-        document.writeln(num1+"");
-        var sum = num1 + num2 ;
-        num1=num2;
-        num2=sum;
-        i++;
+
+    //const number = parseInt(prompt('Enter a positive number: '));
+    let n1 = 0, n2 = 1, nextTerm;
+    let count = 20;
+
+    for (let i = 1; i <= count; i++) {
+        document.write(n1);
+        document.write('<br>');
+        nextTerm = n1 + n2;
+        n1 = n2;
+        n2 = nextTerm;
     }
-    document.writeln("dãy số fibonacci đầu tiên:"+a"</br>");
 </script>
 </body>
 </html>

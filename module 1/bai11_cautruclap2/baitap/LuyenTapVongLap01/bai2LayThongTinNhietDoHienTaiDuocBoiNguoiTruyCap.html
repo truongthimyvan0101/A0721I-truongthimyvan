@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhietdo = Number(prompt("nhập vào nhiệt độ"));
+    while (nhietdo<20|| nhietdo >100){
+        if(nhietdo<20){
+            alert("nhiệt độ quá lạnh");
+            nhietdo=Number(prompt("Nhập vào nhiệt độ"));
+        }else
+            if(nhietdo>100){
+                alert("nhiệt độ quá nóng");
+                nhietdo=Number(prompt("Nhập vào nhiệt độ"));
+            }
+    }
+    alert("Nhiệt đọ bình thường");
+</script>
+</body>
+</html>
