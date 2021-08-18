@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count=0;
+    let num=3;
+    let result ="";
+    while (count<30){
+        let flag =true;
+        if (num<3){
+            flag =false;
+        }else {
+            for (let i =3; i<num;i++){
+                if (num%i==0){
+                    flag =false;
+                    break;
+                }
+            }
+        }
+        if (flag){
+            result +=num +",";
+            count++;
+        }
+        num++;
+    }
+    alert(result);
+</script>
+</body>
+</html>
