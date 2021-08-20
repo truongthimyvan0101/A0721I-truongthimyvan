@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var soup = "<p>";
+    var n = prompt("Nhập độ dài của HCN: ");
+    for (var i=0; i<=n;i++){
+        soup = soup + "*";
+    }
+    soup = soup + "<br>";
+    for (var j = 0; j<n/3 ; j++){
+        soup = soup + "*";
+        for (var h=0; h<=n-2 ; h++){
+            soup =  soup + '&nbsp;' + '&nbsp;';
+        }
+        soup = soup + "*";
+        soup = soup + "<br>";
+    }
+    for (var i=0; i<=n;i++){
+        soup = soup + "*";
+    }
+    document.write(soup);
+</script>
+</body>
+</html>

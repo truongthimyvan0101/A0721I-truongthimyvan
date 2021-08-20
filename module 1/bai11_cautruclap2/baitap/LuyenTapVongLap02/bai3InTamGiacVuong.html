@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (var i=0; i<5; i++){
+        for (var j=0; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+    document.write("<br>");
+    for (var i=4; i>=0; i--){
+        for (var j=0; j<=i; j++){
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+    var soup = "<p>";
+    document.write("<br>");
+    for (var i=0; i<=4; i++){
+        for (var h=4;h>i;h--){
+            soup = soup + '&nbsp;' + '&nbsp;';
+        }
+        for (var j=0; j<=i; j++){
+            soup = soup + "*";
+        }
+        soup = soup + "<br>";
+    }
+    soup = soup + "</p>";
+    document.write(soup)
+
+    var soup1 = "<p>";
+    // document.write("<br>");
+    for (var i=4; i>=0; i--){
+        for (var h=4;h>i;h--){
+            soup1 = soup1 + '&nbsp;' + '&nbsp;';
+        }
+        for (var j=i; j>=0; j--){
+            soup1 = soup1 + "*";
+        }
+        soup1 = soup1 + "<br>";
+    }
+    soup1 = soup1 + "</p>";
+    document.write(soup1)
+
+
+</script>
+</body>
+</html>
