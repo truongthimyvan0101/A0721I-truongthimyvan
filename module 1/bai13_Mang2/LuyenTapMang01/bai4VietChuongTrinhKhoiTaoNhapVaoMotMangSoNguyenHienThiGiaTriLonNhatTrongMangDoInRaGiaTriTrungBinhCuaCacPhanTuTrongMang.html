@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [];
+    for (let i=0; i<10; i++){
+        arr[i] = parseInt(prompt("Nhập vào mảng: "));
+    }
+    var first = 0;
+    var last = arr.length - 1
+    while (first<last){
+        let tam = arr[last];
+        arr[last] = arr[first];
+        arr[first] = tam;
+        first++;
+        last--;
+    }
+    document.write(arr);
+</script>
+</body>
+</html>
