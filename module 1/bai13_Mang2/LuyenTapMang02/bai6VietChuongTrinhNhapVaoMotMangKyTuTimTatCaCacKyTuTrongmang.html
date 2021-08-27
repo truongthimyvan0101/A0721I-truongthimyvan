@@ -6,16 +6,16 @@
 </head>
 <body>
 <script>
-    var a = [];
+    var arr = [];
     for (let i=0; i<10; i++){
-        a[i] = parseInt(prompt("Nhập vào mảng a: "));
+        arr[i] = prompt("Input: ");
     }
-    var b = [];
     for (let i=0; i<10; i++){
-        b[i] = parseInt(prompt("Nhập vào mảng b: "));
+        if (arr[i]=='-'){
+            arr[i]='_';
+        }
     }
-    var c = a.concat(b);
-    document.write(c)
+    document.write(arr);
 </script>
 </body>
 </html>
