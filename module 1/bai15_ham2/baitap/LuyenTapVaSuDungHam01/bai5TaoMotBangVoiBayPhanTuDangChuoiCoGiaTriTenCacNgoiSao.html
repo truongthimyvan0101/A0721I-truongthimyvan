@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    var arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function string(arr) {
+        let name = prompt("Nhập tên cần tìm: ");
+        var count = 0;
+        for (let i=0; i<arr.length; i++){
+            if (arr[i]==name){
+                document.write(name+" thuộc sao: "+ arr2[i]);
+                count++;
+            }
+        }
+        if (count<=0){
+            document.write(name+" NULL ");
+        }
+    }
+    string(arr1);
+</script>
+</body>
+</html>
