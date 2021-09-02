@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function find(arr, a) {
+        var count = 0;
+        for (let i=0;i<arr.length;i++){
+            if (arr[i]===a){
+                count++
+            }
+        }
+        if (count>0){
+            return count;
+        }else {
+            return -1;
+        }
+    }
+    var arr = ['c','f','v','-','j','k','v']
+    var a = 'v';
+    var value = find(arr,a);
+    if (value==-1){
+        document.write("ký tự "+a+" không xuất hiện trong mảng.");
+    }else {
+        document.write("Ký tự "+a+" xuất hiện "+value+ " lần trong mảng.");
+    }
+</script>
+</body>
+</html>
