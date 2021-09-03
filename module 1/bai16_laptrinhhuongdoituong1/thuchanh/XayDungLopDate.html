@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Time{
+        constructor(day, month, year) {
+            this.day =day;
+            this.month = month;
+            this.year =year;
+        }
+        setDay (day) {
+            this.day =day;
+        }
+        getDay () {
+            return this.day;
+        }
+        setMonth (month) {
+            this.month = month;
+        }
+        getMonth () {
+            return this.month;
+        }
+        setYear (year) {
+            this.year = year;
+        };
+        getYear () {
+            return this.year;
+        }
+    }
+    var time_1 = new Time(02,9,2021);
+    alert(time_1.getDay() + "/" +time_1.getMonth() +"/" +time_1.getYear());
+    time_1.setDay(03);
+    time_1.setMonth(9);
+    time_1.setYear(2021);
+    alert(time_1.getDay() + "/" +time_1.getMonth() +"/" +time_1.getYear());
+</script>
+</body>
+</html>
