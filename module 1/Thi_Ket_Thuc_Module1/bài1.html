@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let n = parseInt(prompt("nhập vào số nguyên:"))
+    let arr = [];
+    let viTri;
+    let avg = 0;
+    let count = 0;
+    for (let i = 0; i < n; i++) {
+        arr[i] = parseInt(prompt("nhập phần tử:"))
+        if (arr[i] % 2 == 1) {
+            viTri = arr[i];
+            count++;
+            avg += viTri
+        }
+        console.log("Số lẻ trong phần tử" + viTri);
+    }
+    console.log("trung bình cộng " + avg / count)
+    arr.push();
+    console.log(arr);
+    alert("số lượng phần tử nhập vào "+arr.length);
+</script>
 </body>
 </html>

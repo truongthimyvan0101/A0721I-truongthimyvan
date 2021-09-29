@@ -2,9 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class quanlisach {
+        constructor(masosach, tensach, namxuatban, soquyen, tinhtrang) {
+            this.masosach = masosach;
+            this.tensach = tensach;
+            this.namxuatban = namxuatban;
+            this.soquyen = soquyen;
+            this.tinhtrang = tinhtrang;
+        }
+    }
+    let quyensach = [];
+        quyensach.push(new quanlisach('12345','toán', '2000', '3','True'));
+        quyensach.push(new quanlisach('23456','văn', '1998', '4','True'));
+        quyensach.push(new quanlisach('37456','tiếng anh', '1999', '5', 'False'));
+    function display() {
+        document.body.innerText = '';
+        let result = "<input type='button' value='Add new sách' onclick='showAddForm()'>";
+        result += "<table border='1' style='border-collapse: collapse'>";
+        result += "<tr><th>masosach</th><th>tensach</th><th>namxuatban</th><th>soquyen</th><th>tinhtrang</th><th></th><th>Delete</th><th>Edit</th></tr>";
+        for (let i=0; i<quyensach.length; i++){
+            result+= "<tr>" + "<td>"+ quyensach[i].id+"</td>"
+                +"<td>"+ quyensach[i].masosach +"</td>"
+                +"<td>"+ quyensach[i].tensach +"</td>"
+                +"<td>"+ quyensach[i].namxuatban +"</td>"
+                +"<td>"+ quyensach[i].soquyen +"</td>"
+                +"<td>"+ quyensach[i].tinhtrang+"</td>"
+                +"<td><input type='button' value='Delete' onclick='deletequyensach()sach("+i+")'></td>"
+                +"<td><input type='button' value='Edit' onclick='showEditForm("+i+")'></td>"
+                +"</tr>";
+        }
+        result += "</table>";
+        document.write(result);
+    }
+    function showAddForm() {
+        document.body.innerText = '';
+        let result = "masosach: <input type='text' id='mã số sách'><br>";
+        result+="tensach: <input type='text' id='tên sách'><br>";
+        result+="namxuatban: <input type='text' id='năm xuất bản'><br>";
+        result+="soquyen: <input type='text' id='số quyển'><br>";
+        result+="tinhtrang: <input type='text' id='tình trạng'><br>";
+        result += "<input type='button' value='add sách' onclick='addquyensach()'>";
+        document.write(result);
+    }
+    function addquyensach() {
+        let masosach = document.getElementById('mã số sách').value;
+        let tensach = document.getElementById('tên sách').value;
+        let Namxuatban = document.getElementById('năm xuất bản').value;
+        let soquyen = document.getElementById('số quyển').value;
+        let tinhtrang = document.getElementById('tình trạng').value;
+        quyensach.push(new quanlisach(masosach,tensach,Namxuatban,soquyen,tinhtrang));
+        display();
+    }
+    function deletequyensach(i) {
+        if(confirm("Bạn có muốn xóa không")){
+           quyensach.splice(i,1);
+            display();
+        }
+    }
+    function showEditForm(i) {
+        document.body.innerText = '';
+        let result = "masosach: <input type='text' id='mã số sách' value='"+quyensach[i].masosach+"'><br>";
+        result+="tensach: <input type='text' id='tên sách' value='"+quyensach[i].tensach+"'><br>";
+        result+="Namxuatban: <input type='text' id='năm xuất bản' value='"+quyensach[i].namxuatban+"'><br>";
+        result+="soquyen: <input type='text' id='số quyển' value='"+quyensach[i].soquyen+"'><br>";
+        result+="tinhtrang: <input type='text' id='tình trạng' value='"+quyensach[i].tinhtrang+"'><br>";
+        result += "<input type='button' value='edit student' onclick='editquyensach("+i+")'>";
+        document.write(result);
+    }
+    display();
+
+</script>
 </body>
 </html>
