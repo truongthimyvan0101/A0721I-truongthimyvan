@@ -1,8 +1,17 @@
-package ss6_ke_thua.bai_tap.LopPoinVaMoveablepoin;
+package ss6_ke_thua.bai_tap.lop_point2d_va_point3d;
 
-public class Poin {
+public class Point2D {
     private float x = 0.0f;
     private float y = 0.0f;
+
+    public Point2D(){
+
+    }
+
+    public Point2D(float x, float y){
+        this.x = x;
+        this.y = y;
+    }
 
     public float getX() {
         return x;
@@ -20,15 +29,6 @@ public class Poin {
         this.y = y;
     }
 
-    public void Point(float x, float y){
-        this.x = x;
-        this.y = y;
-    }
-
-    public void Point(){
-
-    }
-
     public void setXY(float x, float y){
         this.x = x;
         this.y = y;
@@ -41,6 +41,7 @@ public class Poin {
 
     @Override
     public String toString(){
-        return "(" + this.x + "," + this.y +")";
+        return "coordinates x: " + this.x +"\n"
+                + "coordinates y: " + this.y;
     }
 }
