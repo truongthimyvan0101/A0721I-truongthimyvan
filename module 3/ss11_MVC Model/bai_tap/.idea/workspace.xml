@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4c05e43-ad2f-4768-ba73-9ae85eb4ec74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/bai_tap/hien_thị_danh_sach/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/bai_tap/hien_thị_danh_sach/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/bai_tap/hien_thị_danh_sach/src/main/java/model/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/bai_tap/hien_thị_danh_sach/src/main/webapp/tieude.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/thuc_hanh/ung_dung_tu_dien_don_gian/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jsp_jstl/thuc_hanh/ung_dung_tu_dien_don_gian/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/model/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/model/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/webapp/customer/customerDeTai.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/webapp/customer/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_tong_quan_ung_dung_web/bai_tap/ung_dung_Product_Discount_Calculator/src/main/java/DiscontServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/src/main/java/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/java/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_tu_dien_don_gian/src/main/java/TranslationServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="23HRZMWNjzcYJT4z1kaiW7SUbkR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4c05e43-ad2f-4768-ba73-9ae85eb4ec74" name="Changes" comment="" />
+      <created>1641389084461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641389084461</updated>
+      <workItem from="1641389085841" duration="118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
