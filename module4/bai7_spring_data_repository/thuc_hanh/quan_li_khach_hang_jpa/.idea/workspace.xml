@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a23b7306-1bcf-477c-b71f-cb78fe7d5db8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/build/libs/blog_application-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_jpa/bai_tap/blog_application/build/libs/blog_application-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/configuration/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/configuration/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/repository/ICustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/repository/IGeneralRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/repository/impl/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/service/IGeneralService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/classes/java/main/com/codegym/cms/service/impl/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/libs/customer_management_application-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/configuration/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/configuration/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/repository/IGeneralRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/repository/impl/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/service/IGeneralService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/java/com/codegym/cms/service/impl/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/WEB-INF/views/customer/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/WEB-INF/views/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/WEB-INF/views/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/customer_management_application/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="26NJlkrKkxtRhS0rXvqhauB9QKn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_1_quan_li_khach_hang_jpa" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a23b7306-1bcf-477c-b71f-cb78fe7d5db8" name="Changes" comment="" />
+      <created>1647258264313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647258264313</updated>
+      <workItem from="1647258265516" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
