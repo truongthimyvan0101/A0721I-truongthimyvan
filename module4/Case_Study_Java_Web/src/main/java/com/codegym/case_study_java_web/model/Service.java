@@ -7,14 +7,14 @@ import java.util.List;
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
-    private int area;
-    private Double cost;
+    private double area;
+    private double cost;
     private int max_people;
     private String standard_room;
     private  String description_other_convenience;
-    private Double pool_area;
+    private double pool_area;
     private int number_of_floors;
     @ManyToOne (targetEntity = ServiceType.class)
     private ServiceType serviceType;
@@ -24,7 +24,7 @@ public class Service {
     public Service() {
     }
 
-    public Service(int id, String name, int area, Double cost, int max_people, String standard_room, String description_other_convenience, Double pool_area, int number_of_floors, ServiceType serviceType, RentType rentType) {
+    public Service(Long id, String name, double area, double cost, int max_people, String standard_room, String description_other_convenience, double pool_area, int number_of_floors, ServiceType serviceType, RentType rentType) {
         this.id = id;
         this.name = name;
         this.area = area;
@@ -37,11 +37,12 @@ public class Service {
         this.serviceType = serviceType;
         this.rentType = rentType;
     }
-    public int getId() {
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -53,8 +54,20 @@ public class Service {
         this.name = name;
     }
 
-    public int getArea() {
+    public double getArea() {
         return area;
+    }
+
+    public void setArea(double area) {
+        this.area = area;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    public void setPool_area(double pool_area) {
+        this.pool_area = pool_area;
     }
 
     public void setArea(int area) {

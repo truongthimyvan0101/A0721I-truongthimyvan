@@ -1,7 +1,6 @@
 package com.codegym.case_study_java_web.controller;
 
-import com.codegym.case_study_java_web.model.Customer;
-import com.codegym.case_study_java_web.model.CustomerType;
+import com.codegym.case_study_java_web.model.*;
 import com.codegym.case_study_java_web.service.CustomerService;
 import com.codegym.case_study_java_web.service.CustomerTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +9,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
@@ -88,15 +84,68 @@ public ModelAndView getCreatePage(Model model){
     return modelAndView;
 }
 
-    @PostMapping("/create-customer")
-    public ModelAndView saveCustomer(@ModelAttribute("customer") Customer customer) {
-        customerService.save(customer);
-        ModelAndView modelAndView = new ModelAndView("customer/create");
-        modelAndView.addObject("customer", new Customer());
-        modelAndView.addObject("message", "Created customer successfully");
-        return modelAndView;
+//    @PostMapping("/create-customer")
+//    public ModelAndView saveCustomer(@ModelAttribute("customer") Customer customer) {
+//        customerService.save(customer);
+//      //  ModelAndView modelAndView = new ModelAndView("customer/create");
+//        modelAndView.addObject("customer", new Customer());
+//        modelAndView.addObject("message", "Created customer successfully");
+//        return modelAndView;
+//    }
+    @PostMapping("/create")
+    public String saveCustomer(@ModelAttribute("customer") Customer customer, RedirectAttributes redirectAttributes) {
+        customerService.saveCustomer(customer);
+        redirectAttributes.addFlashAttribute("message", "Create success");
+        return "redirect:/customer";
+
     }
+    @GetMapping("/edit-customer/{id}")
+    public ModelAndView showEditForm(@PathVariable Long id , Model model) {
+        List<CustomerType> customerTypes = customerTypeService.findAll();
+        Optional<Customer> customer = customerService.findCustomerById(id);
+        model.addAttribute("customerTypes", customerTypes);
+        if (customer != null) {
+//            ModelAndView modelAndView = new ModelAndView("customer/edit");
+//            modelAndView.addObject("customers", customer);
+//            return modelAndView;
+            return new ModelAndView("customer/edit","customers",customer);
 
+        } else {
+            ModelAndView modelAndView = new ModelAndView("error");
+            return modelAndView;
+        }
+    }
+    @PostMapping("/edit-customer")
+    public ModelAndView updateCustomer(@ModelAttribute("customers") Customer customer) {
+        customerService.saveCustomer(customer);
+//        ModelAndView modelAndView = new ModelAndView("customer/edit");
+//        modelAndView.addObject("customers", customer);
+//        modelAndView.addObject("message", "customer updated successfully");
+        return new ModelAndView("redirect:/customer");
+    }
+    @GetMapping("/delete-customer/{id}")
+    public ModelAndView showDeleteForm(@PathVariable Long id , Model model) {
+        List<CustomerType> customerTypes = customerTypeService.findAll();
+        Optional<Customer> customer = customerService.findCustomerById(id);
+        model.addAttribute("customerTypes", customerTypes);
+        if (customer != null) {
+//            ModelAndView modelAndView = new ModelAndView("customer/edit");
+//            modelAndView.addObject("customers", customer);
+//            return modelAndView;
+            return new ModelAndView("customer/delete","customers",customer);
 
+        } else {
+            ModelAndView modelAndView = new ModelAndView("error");
+            return modelAndView;
+        }
+    }
+    @PostMapping("/delete")
+    public String DeleteCustomer(@ModelAttribute("customers") Customer customer , RedirectAttributes redirectAttributes) {
+        customerService.deleteCustomer(customer.getId());
+        redirectAttributes.addFlashAttribute("message", "Delete success");
+//        modelAndView.addObject("customers", customer);
+//        modelAndView.addObject("message", "customer updated successfully");
+        return "redirect:/customer";
+    }
 
 }

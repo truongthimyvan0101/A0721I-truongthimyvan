@@ -7,12 +7,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.security.Provider;
+import java.util.Optional;
 
 @Service
 public class ServiceServiceImpl implements ServiceService {
     @Autowired
     private ServiceRepository serviceRepository;
+
 
     @Override
     public Page<com.codegym.case_study_java_web.model.Service> findAll(Pageable pageable) {
@@ -21,17 +22,16 @@ public class ServiceServiceImpl implements ServiceService {
 
     @Override
     public void saveService(com.codegym.case_study_java_web.model.Service service) {
-    serviceRepository.save(service);
+        serviceRepository.save(service);
     }
 
     @Override
     public void deleteService(Long id) {
-
     }
 
     @Override
     public com.codegym.case_study_java_web.model.Service findServiceById(Long id) {
-        return null;
+        return serviceRepository.findById(id).orElse(null);
     }
 
     @Override
@@ -44,8 +44,7 @@ public class ServiceServiceImpl implements ServiceService {
         return serviceRepository.findAllByNameContaining(name, pageable);
     }
 
-    @Override
-    public void save(com.codegym.case_study_java_web.model.Service service) {
 
-    }
+
+
 }

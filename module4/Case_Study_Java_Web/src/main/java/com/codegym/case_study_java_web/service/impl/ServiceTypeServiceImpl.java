@@ -17,18 +17,18 @@ public class ServiceTypeServiceImpl implements ServiceTypeService {
         return serviceTypeRepository.findAll();
     }
 
-//    @Override
-//    public void saveServiceType(ServiceType serviceType) {
-//
-//    }
-//
-//    @Override
-//    public void deleteServiceType(Long id) {
-//
-//    }
-//
-//    @Override
-//    public ServiceType findServiceTypeById(Long id) {
-//        return null;
-//    }
+    @Override
+    public void saveServiceType(ServiceType serviceType) {
+
+    }
+
+    @Override
+    public void deleteServiceType(Long id) {
+
+    }
+
+    @Override
+    public ServiceType findServiceTypeById(Long id) {
+        return null;
+    }
 }

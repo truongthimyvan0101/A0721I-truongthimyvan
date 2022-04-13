@@ -7,7 +7,7 @@ import java.util.Set;
 public class ServiceType<set> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int id;
+    public Long id;
     public String name;
 
     @OneToMany(mappedBy = "id")
@@ -16,11 +16,11 @@ public class ServiceType<set> {
     public ServiceType() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

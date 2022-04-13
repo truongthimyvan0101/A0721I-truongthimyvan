@@ -8,11 +8,11 @@
 <body>
 <h3>Create Service</h3>
 <p>
-    <a href="/service">Back Service list</a>
+    <a href="/">Back Service list</a>
     <a class="btn btn-default" href="/home">Home</a>
 </p>
 <div class="col-5">
-    <form th:action = "@{create}" method="post" th:object="${service}">
+    <form th:action = "@{create-service}" method="post" th:object="${services}">
         <div class="container">
             <div class="form-group">
                 <label>Name: </label>

@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface ServiceTypeService {
     List<ServiceType> findAll();
-//    void saveServiceType (ServiceType serviceType);
-//    void deleteServiceType (Long id);
-//    ServiceType findServiceTypeById(Long id);
+    void saveServiceType (ServiceType serviceType);
+    void deleteServiceType (Long id);
+    ServiceType findServiceTypeById(Long id);
 }
 
