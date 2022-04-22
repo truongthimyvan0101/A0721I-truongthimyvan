@@ -16,7 +16,7 @@ public class DictionaryController {
     public String getDictionary() {
         return "index";
     }
-    @PostMapping(path = "/index")
+    @PostMapping(path = "/")
     public ModelAndView translate(@RequestParam String word, Model model) {
         String wordVN = this.englishService.findByEnglish(word);
         if (wordVN ==null) {

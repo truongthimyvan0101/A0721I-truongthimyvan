@@ -13,7 +13,7 @@
 <body>
 <center>
   <h1>Dictionary</h1>
-  <form method="post" action="/index">
+  <form method="post" action="/">
     <fieldset>
       <legend>Dictionary information</legend>
       <table>
