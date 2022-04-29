@@ -1,32 +1,28 @@
 package com.codegym.service;
 
-import com.codegym.model.Setting;
 
-import java.util.HashMap;
+import com.codegym.model.Setting;
+import com.codegym.repository.SettingRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.List;
-import java.util.Map;
 
 public class SettingServiceImpl implements SettingService {
-    private static Map<String, Setting> settingMap;
-
-    static {
-        settingMap = new HashMap<>();
-        settingMap.put("Nguyễn văn A", new Setting("Vietnamese", 10, true, "Nguyễn văn A"));
-        settingMap.put("Linda", new Setting("English", 5, false, "Linda"));
-        settingMap.put("john", new Setting("Laos", 15, true, "John"));
-    }
+private SettingRepository settingRepository;
+@Autowired
+public SettingServiceImpl(SettingRepository settingRepository) {this.settingRepository = settingRepository;}
     @Override
     public List<Setting> findAll() {
-        return null;
+        return settingRepository.findAll();
     }
 
     @Override
     public Setting findBySignature(String signature) {
-        return null;
+        return settingRepository.findBySignature(signature);
     }
 
     @Override
-    public void save(Setting setting) {
-
+    public void update(Setting setting) {
+settingRepository.update(setting);
     }
 }

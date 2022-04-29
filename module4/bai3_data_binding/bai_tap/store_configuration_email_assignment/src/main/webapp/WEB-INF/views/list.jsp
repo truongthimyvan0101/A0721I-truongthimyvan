@@ -9,10 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>List Mail Box</title>
+    <title>Setting</title>
 </head>
 <body>
-<c:forEach items="${setting}" var="electronicMail">
+<c:forEach items="${settings}" var="settings">
     <table>
         <tr>
             <th>Signature</th>
@@ -22,11 +22,11 @@
             <th>Detail</th>
         </tr>
         <tr>
-            <td>${electronicMail.signature}</td>
-            <td>${electronicMail.language}</td>
-            <td>${electronicMail.size}</td>
-            <td>${electronicMail.spam}</td>
-            <td><a href="/update?signature=${electronicMail.signature}">Update</a></td>
+            <td>${settings.signature}</td>
+            <td>${settings.language}</td>
+            <td>${settings.size}</td>
+            <td>${settings.spam}</td>
+            <td><a href="/update?signature=${setting.signature}">Update</a></td>
         </tr>
     </table>
 </c:forEach>

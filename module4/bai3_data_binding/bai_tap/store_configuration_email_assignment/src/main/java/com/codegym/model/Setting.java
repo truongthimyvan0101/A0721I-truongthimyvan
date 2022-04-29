@@ -1,43 +1,55 @@
 package com.codegym.model;
 
 public class Setting {
-    private String languages;
-    private int pageSize;
-    private boolean spamsFilter;
+    private int id;
+    private String language;
+    private int size;
+    private boolean spam;
     private String signature;
 
-    public Setting() {
-    }
 
-    public Setting(String languages, int pageSize, boolean spamsFilter, String signature) {
-        this.languages = languages;
-        this.pageSize = pageSize;
-        this.spamsFilter = spamsFilter;
+    public Setting(String language, int size, boolean spam, String signature) {
+        this.id = id;
+        this.language = language;
+        this.size = size;
+        this.spam = spam;
         this.signature = signature;
     }
 
-    public String getLanguages() {
-        return languages;
+    public Setting() {
+
     }
 
-    public void setLanguages(String languages) {
-        this.languages = languages;
+    public int getId() {
+        return id;
     }
 
-    public int getPageSize() {
-        return pageSize;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setPageSize(int pageSize) {
-        this.pageSize = pageSize;
+    public String getLanguage() {
+        return language;
     }
 
-    public boolean isSpamsFilter() {
-        return spamsFilter;
+    public void setLanguage(String language) {
+        this.language = language;
     }
 
-    public void setSpamsFilter(boolean spamsFilter) {
-        this.spamsFilter = spamsFilter;
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public boolean isSpam() {
+        return spam;
+    }
+
+    public void setSpam(boolean spam) {
+        this.spam = spam;
     }
 
     public String getSignature() {

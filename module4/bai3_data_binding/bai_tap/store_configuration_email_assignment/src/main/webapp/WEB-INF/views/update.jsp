@@ -12,7 +12,8 @@
     <title>Update</title>
 </head>
 <body>
-<form:form action="/update" method="post" modelAttribute="settingMap">
+<%--@elvariable id="setting" type="java"--%>
+<form:form action="/update" method="post" modelAttribute="setting">
     <div>
         <form:label path="language">Languages: </form:label>
         <form:select path="language">
