@@ -2,9 +2,7 @@ package codegym.vn.controller;
 
 import codegym.vn.entity.Student;
 import codegym.vn.service.StudentService;
-import codegym.vn.service.StudentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

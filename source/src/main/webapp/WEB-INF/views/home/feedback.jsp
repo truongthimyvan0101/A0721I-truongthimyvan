@@ -12,7 +12,7 @@
 				<form id="fb" class="form-horizontal" action="addFeedBack.htm"
 					method="post">
 					<div class="control-group">
-						<label class="control-label" for="inputCountry">Họ và tên
+						<%--@declare id="inputcountry"--%><label class="control-label" for="inputCountry">Họ và tên
 							<span style="color: red;">(*)</span>
 						</label>
 						<div class="controls">
@@ -23,7 +23,7 @@
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPost">Số điện thoại
+						<%--@declare id="inputpost"--%><label class="control-label" for="inputPost">Số điện thoại
 							<span style="color: red;">(*)</span>
 						</label>
 						<div class="controls">

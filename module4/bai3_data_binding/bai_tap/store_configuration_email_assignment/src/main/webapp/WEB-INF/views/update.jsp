@@ -12,8 +12,9 @@
     <title>Update</title>
 </head>
 <body>
-<%--@elvariable id="setting" type="java"--%>
-<form:form action="/update" method="post" modelAttribute="setting">
+<h1>Update Setting</h1>
+<a href="${pageContext.request.contextPath}/ <a href="${pageContext.request.contextPath}/ <a href="${pageContext.request.contextPath}/setting/list">Back to list</a>/list">Back to list</a>/list">Back to list</a>
+<form:form action="${pageContext.request.contextPath}/setting/update" method="post" modelAttribute="setting">
     <div>
         <form:label path="language">Languages: </form:label>
         <form:select path="language">

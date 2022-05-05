@@ -1,12 +1,13 @@
 package com.codegym.repository;
 
 import com.codegym.model.Setting;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+@Repository
 public class SettingRepositoryImpl implements SettingRepository{
     private static Map<String, Setting> settingMap = new HashMap<>();
     static {

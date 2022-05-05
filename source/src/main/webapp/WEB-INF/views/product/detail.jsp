@@ -135,7 +135,6 @@
 
 </div>
 </div>
->>>>>>> branch 'master' of https://github.com/truongminh2k0/DuAnTotNghiep.git
 <!-- /content -->
 <br>
 
@@ -391,16 +390,13 @@
 
 			</div>
 		</div>
-<<<<<<< HEAD
 </div>
 	<br />
-=======
 		<jsp:include page="dialog.jsp" />
 	</div>
 </div>
 
 <br />
->>>>>>> branch 'master' of https://github.com/truongminh2k0/DuAnTotNghiep.git
 
 <jsp:include page="dialog_cart.jsp" />
 <style>

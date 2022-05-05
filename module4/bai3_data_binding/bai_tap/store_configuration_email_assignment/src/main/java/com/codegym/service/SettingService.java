@@ -9,4 +9,6 @@ public interface SettingService {
     List<Setting> findAll();
     Setting findBySignature(String signature);
     void update (Setting setting);
+
+    List<Setting> getAllUser();
 }

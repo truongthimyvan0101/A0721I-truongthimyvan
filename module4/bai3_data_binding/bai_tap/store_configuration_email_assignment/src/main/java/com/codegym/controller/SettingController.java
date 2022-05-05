@@ -13,26 +13,37 @@ import java.util.List;
 @RequestMapping("/setting")
 public class SettingController {
     @Autowired
-    private SettingService service;
-    @GetMapping(value = "setting/list")
-    public String list (Model model) {
-        List<Setting> settings = service.findAll();
-        model.addAttribute("settings", settings);
-        return "setting/list";
+    private SettingService settingService;
+    @GetMapping("/")
+    public String showListForm(Model model){
+        List<Setting> settings = settingService.getAllUser();
+        model.addAttribute("settingList", settings);
+        return "list";
     }
-    @GetMapping("setting/update")
-    public String show (@RequestParam("signature") String signature, ModelMap modelMap){
-        Setting setting = service.findBySignature(signature);
-        modelMap.addAttribute("settings", setting);
-        modelMap.addAttribute("settings", new Setting());
-        return "setting/update";
+
+    @GetMapping("/list")
+    public String showCreateForm(Model model) {
+        String[] languages ={"English", "Vietnamese", "Japanese", "Chinese"};
+        int[] pages = {5, 10, 15, 20, 25};
+        model.addAttribute("setting", new Setting());
+        model.addAttribute("languages", languages);
+        model.addAttribute("pages", pages);
+        return "/list";
     }
-    @PostMapping("setting/update")
-    public String update (@ModelAttribute("setting") Setting setting, ModelMap model){
-        service.update(setting);
-        List<Setting> settings = service.findAll();
-        model.addAttribute("settings", settings);
-        return "setting/update";
+
+    @PostMapping("/update")
+    public String update(@ModelAttribute("setting") Setting setting) {
+        settingService.update(setting);
+        return "redirect:/";
     }
+
+
+
+
+
+
+
+
+
 
 }

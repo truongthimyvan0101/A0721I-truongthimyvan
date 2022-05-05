@@ -25,4 +25,9 @@ public SettingServiceImpl(SettingRepository settingRepository) {this.settingRepo
     public void update(Setting setting) {
 settingRepository.update(setting);
     }
+
+    @Override
+    public List<Setting> getAllUser() {
+        return null;
+    }
 }

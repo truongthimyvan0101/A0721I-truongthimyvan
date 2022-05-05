@@ -69,9 +69,9 @@
               </div>
               <div class="col-smx-3" style="width: 355px;">
                 <h5>Địa chỉ</h5>
-                <p><i class="fa fa-home" style="font-size: 22px;"></i>&nbsp;&nbsp;Địa chỉ : 173 Hàm Nghi, TP.Đà Nẵng</p>
-                <p><i class="fa fa-envelope-open" style="font-size: 22px;"></i>&nbsp;&nbsp;Email : happyshopsuport2020@gmail.com</p>
-                <p><i class="fa fa-volume-control-phone" style="font-size: 22px;"></i>&nbsp;&nbsp;Điện thoại   : 0935542813</p><hr>
+                <p><i class="fa fa-home" style="font-size: 22px;"></i>&nbsp;&nbsp;Địa chỉ : H108/44/31 Phạm Như Xương, Phường Hòa Khánh Nam, Quận Liên Chiểu, TP.Đà Nẵng</p>
+                <p><i class="fa fa-envelope-open" style="font-size: 22px;"></i>&nbsp;&nbsp;Email : truongthimyvan9@gmail.com</p>
+                <p><i class="fa fa-volume-control-phone" style="font-size: 22px;"></i>&nbsp;&nbsp;Điện thoại   : 0383985537</p><hr>
                 <img src="/static/images/footer/prepaid_card.jpg" width="48px">&nbsp;&nbsp;
                 <img src="/static/images/footer/natwest.jpg" width="48px">&nbsp;&nbsp;
                 <img src="/static/images/footer/visa.png" width="48px">&nbsp;&nbsp;

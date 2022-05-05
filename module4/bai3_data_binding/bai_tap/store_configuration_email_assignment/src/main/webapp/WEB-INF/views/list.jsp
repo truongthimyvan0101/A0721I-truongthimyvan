@@ -12,23 +12,28 @@
     <title>Setting</title>
 </head>
 <body>
-<c:forEach items="${settings}" var="settings">
-    <table>
+<h1>Setting</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Language</th>
+        <th>Size</th>
+        <th>Spam</th>
+        <th>Signature</th>
+    </tr>
+    <c:forEach items="${settings}" var="setting">
         <tr>
-            <th>Signature</th>
-            <th>Language</th>
-            <th>Size</th>
-            <th>Spam</th>
-            <th>Detail</th>
+            <td>${setting.id}</td>
+            <td>${setting.language}</td>
+            <td>${setting.size}</td>
+            <td>${setting.spam}</td>
+            <td>${setting.signature}</td>
+            <td>
+                <a href="${pageContext.request.contextPath}/setting/view/${setting.id}">View</a>
+            </td>
         </tr>
-        <tr>
-            <td>${settings.signature}</td>
-            <td>${settings.language}</td>
-            <td>${settings.size}</td>
-            <td>${settings.spam}</td>
-            <td><a href="/update?signature=${setting.signature}">Update</a></td>
-        </tr>
-    </table>
-</c:forEach>
+    </c:forEach>
+
+</table>
 </body>
 </html>
