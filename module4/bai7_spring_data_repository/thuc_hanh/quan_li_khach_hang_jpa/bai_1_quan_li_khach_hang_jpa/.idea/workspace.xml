@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fef1872b-9a1b-4a1c-a996-0451964bee6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/Repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/config/DataSeedingListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/ultil/EncrypPasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/authentication/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/authentication/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/authentication/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/java/com/example/wbdjavaexam_a0721i1_truongthimyvan/Controller/KhuyenmaiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/java/com/example/wbdjavaexam_a0721i1_truongthimyvan/Model/Khuyenmai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/java/com/example/wbdjavaexam_a0721i1_truongthimyvan/Repository/KhuyenmaiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/java/com/example/wbdjavaexam_a0721i1_truongthimyvan/Service/Impl/KhuyenmaiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/java/com/example/wbdjavaexam_a0721i1_truongthimyvan/Service/KhuyenmaiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/resources/templates/question/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/resources/templates/question/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/resources/templates/question/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WBDJAVA-EXAM_A0721I1_TruongThiMyVan/src/main/resources/templates/question/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/service/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/java/com/codegym/java_web/service/Impl/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_web/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../module 3/ss9_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/controller/ServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/java/com/codegym/case_study_java_web/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/error404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/service/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/service/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Case_Study_Java_Web/src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bai6_jpa/bai_tap/blog_application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bai6_jpa/thuc_hanh/quan_li_khach_hang_jpa/bai_1_quan_li_khach_hang_jpa/src/main/java/customermanagement/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bai6_jpa/thuc_hanh/quan_li_khach_hang_jpa/bai_1_quan_li_khach_hang_jpa/src/main/java/customermanagement/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25mqo5jqiJH9BiEwfQiHu1QZBM5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../bai6_jpa/thuc_hanh/quan_li_khach_hang_jpa/bai_1_quan_li_khach_hang_jpa" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CustomerManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="customermanagement.CustomerManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fef1872b-9a1b-4a1c-a996-0451964bee6c" name="Default Changelist" comment="" />
+      <created>1646142780245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646142780245</updated>
+      <workItem from="1646142783468" duration="5780000" />
+      <workItem from="1646223535685" duration="1140000" />
+      <workItem from="1646224711011" duration="244000" />
+      <workItem from="1646224993858" duration="136000" />
+      <workItem from="1647258403742" duration="3328000" />
+      <workItem from="1648024213016" duration="309000" />
+      <workItem from="1650029790830" duration="397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

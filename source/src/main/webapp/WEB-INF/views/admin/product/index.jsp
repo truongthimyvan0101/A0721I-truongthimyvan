@@ -27,5 +27,4 @@
 	<div id="tab2" class="tab-pane fade">
 		<jsp:include page="_table.jsp" />
 	</div>
-
 </div>

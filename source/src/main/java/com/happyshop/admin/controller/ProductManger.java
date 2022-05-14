@@ -80,16 +80,17 @@ public class ProductManger {
 	}
 	
 	@RequestMapping(value = {"/admin/product/delete","/admin/product/delete/{id}"})
-	public String delete(RedirectAttributes model, 
-			@RequestParam(value="id", required = false) Integer id1, 
+	public String delete(RedirectAttributes model,
+			@RequestParam(value="id", required = false) Integer id1,
 			@PathVariable(value="id", required = false) Integer id2) {
 		if(id1 != null) {
 			dao.delete(id1);
 		}else {
 			dao.delete(id2);
 		}
-		
+
 		model.addAttribute("message", "Xóa thành công!");
 		return "redirect:/admin/product/index";
 	}
+
 }
