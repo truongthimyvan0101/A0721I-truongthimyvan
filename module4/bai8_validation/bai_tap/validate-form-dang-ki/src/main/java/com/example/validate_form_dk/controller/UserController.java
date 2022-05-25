@@ -1,17 +1,32 @@
 package com.example.validate_form_dk.controller;
 
+import com.example.validate_form_dk.model.User;
 import com.example.validate_form_dk.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class UserController {
-    @Autowired
-    private UserService userService;
-    @GetMapping("")
-    public ModelAndView getUserList(){
-        return new ModelAndView("index","users",userService.findAll());
+    @GetMapping("/user")
+    public ModelAndView showForm() {
+        ModelAndView modelAndView=new ModelAndView("user/index");
+        modelAndView.addObject("user",new User());
+        return modelAndView;
+    }
+    @PostMapping("/validateUser")
+    public ModelAndView checkValidate(@Validated @ModelAttribute("user") User user, BindingResult bindingResult) {
+        if(bindingResult.hasFieldErrors()){
+            ModelAndView modelAndView=new ModelAndView("user/index");
+            return modelAndView;
+        } else {
+            ModelAndView modelAndView=new ModelAndView("user/result");
+            return modelAndView;
+        }
     }
 }
