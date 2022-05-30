@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thanh toán</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="/css/bootstrap.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<form th:action="@{/product/thanhtoan-product}" method="post" th:object="${product}">
+    <h3>Yêu cầu bạn nhập thông tin</h3>
+<!--    <div>-->
+<!--        <span>Your Name</span>-->
+<!--        <input path="receiptName"  />-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <span>Your Email</span>-->
+<!--        <input path="receiptMail"  />-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <span>Your Address</span>-->
+<!--        <input path="receiptAddress"  />-->
+<!--    </div>-->
+    <table class="table">
+        <div class="form-group">
+            <label>Khách hàng:</label>
+            <input path="user.id" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Số điện thoại:</label>
+            <input path="telephone" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Ngày đặt hàng:</label>
+            <input path="orderDate" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input path="email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Địa chỉ:</label>
+            <input path="address" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Tổng tiền:</label>
+            <hidden path="amount" class="form-control" />
+        </div>
+    <input type="submit" value="SEND" >
+    </table>
+</form>
+</body>
+</html>
