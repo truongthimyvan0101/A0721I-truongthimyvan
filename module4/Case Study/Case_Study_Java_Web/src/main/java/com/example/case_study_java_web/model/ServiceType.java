@@ -4,16 +4,22 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class CustomerType {
+public class ServiceType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-
+    public Long id;
+    public String name;
     @OneToMany(mappedBy = "id")
-    private Set<Customer> customer;
+    private Set<Service> services;
 
-    public CustomerType() {
+    public ServiceType() {
+    }
+
+    public ServiceType(Long id, String name, Set<Service> services) {
+        this.id = id;
+        this.name = name;
+
+        this.services = services;
     }
 
     public Long getId() {
@@ -32,11 +38,11 @@ public class CustomerType {
         this.name = name;
     }
 
-    public Set<Customer> getCustomer() {
-        return customer;
+    public Set<Service> getServices() {
+        return services;
     }
 
-    public void setCustomer(Set<Customer> customer) {
-        this.customer = customer;
+    public void setServices(Set<Service> services) {
+        this.services = services;
     }
 }
